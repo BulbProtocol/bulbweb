@@ -187,7 +187,20 @@ ul#nav li.current a { color: #FFFF00; }
    padding-bottom: 66px;
    overflow: hidden;
 }
-
+#contract .title{
+   float:left;
+   clear: both;
+   
+   font-weight: bold;
+   margin-bottom: 0px;
+   margin-top: 10px;
+}
+#contract .desc{
+   float:left;
+   clear: both;
+   font-size: 1.2em !important;
+   
+}
 #contract a, #contract a:visited  { color: #fff; }
 #contract a:hover, #contract a:focus { color: #0762f9; }
 
