@@ -7,9 +7,9 @@ class Footer extends Component {
         <div className="row">
           <div className="twelve columns">
             <ul className="social-links">
-              <li><a href="" alt="Twitter"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="" alt="Telegram"><img src="/images/telegram.png" alt="" /></a></li>
-              <li><a href="" alt="Medium"><img src="/images/medium.png" alt="" /></a></li>
+              <li><a href="https://twitter.com/BulbProtocol" alt="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="" alt="Telegram"><img src="/images/telegram.png" alt="" target="_blank" /></a></li>
+              <li><a href="https://medium.com/@BulbProtocol" alt="Medium" target="_blank"><img src="/images/medium.png" alt="" /></a></li>
             </ul>
 
             <ul className="copyright">

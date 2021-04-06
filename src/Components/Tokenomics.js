@@ -14,13 +14,10 @@ class Tokenomics extends Component {
     return (
       <section id="tokenomics">
         <div className="row title">
-          <h1>Tokenomics</h1>
         </div>
         <div className="row description">
-          <ul>
-            <li>10% a mi</li>
-            <li>10% a vos</li>
-          </ul>
+          <img src="/images/hodltext.png" alt="Hodl" />
+          <img src="/images/tokenomics.png" alt="tokenomics" />
         </div>
       </section>
     );

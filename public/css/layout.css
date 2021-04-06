@@ -56,7 +56,7 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -227,17 +227,43 @@ ul#nav li.current a { color: #FFFF00; }
    font-size: 20px;
 }
 
+.responsive-headline{
+   font-size: 90px;
+}
+@media (max-width: 600px) {
+   .responsive-headline{
+      font-size: 70px;
 
+   }
+}
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
 #tokenomics {
-   background: #fff;
-   padding-top: 90px;
+   background-color:#0f0f0f;
+   /* background: url('/images/hodl2.jpg'); */
+   background-size:cover;
+   padding-top: 20px;
    padding-bottom: 72px;
    overflow: hidden;
+   min-height: 650px;
+   position: relative;
+   background-position-x: center;
+   background-attachment: fixed;
 }
+#tokenomics img{
+   width: 60%;
+}
+@media (max-width: 600px) {
+   #tokenomics img{
+      width: 100%;
+   }
+   #tokenomics {
+      min-height: 350px;
+      padding-top: 0px;
+   }
+ }
 
 #tokenomics a, #tokenomics a:visited  { color: #0762f9; }
 #tokenomics a:hover, #tokenomics a:focus { color: #313131; }
@@ -414,7 +440,8 @@ ul#nav li.current a { color: #FFFF00; }
 /* ------------------------------------------------------------------ */
 
 #roadmap {
-   background: #495555;
+   background: rgb(1,1,1);
+   background: linear-gradient(180deg, rgba(1,1,1,1) 0%, rgba(51,51,51,1) 100%);
    padding-top: 90px;
    padding-bottom: 60px;
 }

@@ -67,10 +67,10 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">Bulb Protocol</h1>
-            <h3>In honor of Nikola Tesla, the lightbulb protocol arrives to illuminate the BSC network</h3>
+            <h3>passive earnings for smart investors</h3>
             <hr />
             <ul className="social">
-              <a href="" className="button btn project-btn">
+              <a target="_blank" href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=" className="button btn project-btn">
                 <i className="fa fa-book"></i>Buy Now
               </a>
             </ul>
