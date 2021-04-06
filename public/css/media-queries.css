@@ -138,10 +138,10 @@
    #nav-wrap > a:after { top: 60%; }
 
    /* toggle buttons */
-	#nav-wrap:not( :target ) > a:first-of-type,
+	/* #nav-wrap:not( :target ) > a:first-of-type,
 	#nav-wrap:target > a:last-of-type  {
-	   /*display: block;*/
-	}
+	   display: block;
+	} */
 
    /* hide menu panel */
    #nav-wrap ul#nav {

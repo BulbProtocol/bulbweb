@@ -79,7 +79,7 @@ class Header extends Component {
               </a>
             </ul>
             <hr />
-            <span className="titleCountdown">Time to Lunch</span>
+            <span className="titleCountdown">Time to Launch</span>
             <br />
             <br />
             <Countdown className="countdown" date={Date.now() + 100000000} />
