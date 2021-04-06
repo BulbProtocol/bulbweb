@@ -140,13 +140,13 @@
    /* toggle buttons */
 	#nav-wrap:not( :target ) > a:first-of-type,
 	#nav-wrap:target > a:last-of-type  {
-	   display: block;
+	   /*display: block;*/
 	}
 
    /* hide menu panel */
    #nav-wrap ul#nav {
       height: auto;
-		display: none;
+		/*display: none;*/
       clear: both;
       width: auto; 
       float: right;     
@@ -166,7 +166,7 @@
    }
 
    ul#nav li {
-      display: block;
+      /* display: block; */
       height: auto;      
       margin: 0 auto; 
       padding: 0 4%;           

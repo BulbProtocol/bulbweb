@@ -1071,3 +1071,19 @@ footer .social-links li:first-child { margin-left: 0; }
 #buynow{
    text-align: center;
 }
+.countdown{
+   font-size: 5em;
+    color: #fff;
+}
+.titleCountdown{
+   font-size: 2em;
+}
+@media (max-width: 600px) {
+   .countdown{
+      font-size: 3em;
+       color: #fff;
+   }
+   .social .btn:first-child{
+      margin-right: 5px;
+   }
+ }

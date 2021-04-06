@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import icon from "./icon.js";
+import Countdown from 'react-countdown';
 
 class Header extends Component {
   render() {
@@ -73,7 +74,15 @@ class Header extends Component {
               <a target="_blank" href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=" className="button btn project-btn">
                 <i className="fa fa-book"></i>Buy Now
               </a>
+              <a target="_blank" href="https://poocoin.app/tokens/" className="button btn project-btn">
+                <i className="fa fa-bar-chart-o"></i>Chart
+              </a>
             </ul>
+            <hr />
+            <span className="titleCountdown">Time to Lunch</span>
+            <br />
+            <br />
+            <Countdown className="countdown" date={Date.now() + 100000000} />
           </div>
         </div>
 
