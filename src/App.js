@@ -8,6 +8,7 @@ import Contract from "./Components/Contract";
 import Tokenomics from "./Components/Tokenomics";
 import Buy from "./Components/Buy";
 import Roadmap from "./Components/Roadmap";
+import Social from "./Components/Social";
 
 class App extends Component {
   constructor(props) {
@@ -27,6 +28,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Contract />
+        <Social />
         <Tokenomics />
         <Roadmap />
         <Buy />

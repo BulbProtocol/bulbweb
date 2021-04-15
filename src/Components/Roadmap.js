@@ -12,7 +12,7 @@ class Roadmap extends Component {
             <h1>ROADMAP</h1>
 
             <div id="portfolio-wrapper" className="image bgrid-quarters s-bgrid-thirds cf">
-              <img src="/images/roadmap.png" alt="roadmap" width="80%" />
+              <img src="/images/roadmap2.png" alt="roadmap" width="80%" />
             </div>
           </div>
         </div>
