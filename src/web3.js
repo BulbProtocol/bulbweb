@@ -3,7 +3,7 @@ const axios = require('axios');
 
 
 
-module.exports = class GetPrices {
+class GetPrices {
     /**
     * Llamar a getContracts() tras instanciar la clase para que funcione.
     */
@@ -67,3 +67,4 @@ module.exports = class GetPrices {
     }
 
 }
+export default GetPrices
